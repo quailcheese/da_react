@@ -16,12 +16,12 @@
   },
   "rules": {
     // Add your custom ESLint rules here
-    "@typescript-eslint/no-explicit-any": "off",  // Example: Turn off the no-explicit-any rule
+    "@typescript-eslint/no-explicit-any": "off", // Example: Turn off the no-explicit-any rule
     "react/react-in-jsx-scope": "off" // Not needed with recent React versions
   },
   "settings": {
-      "react": {
-        "version": "detect" 
-      }
+    "react": {
+      "version": "detect"
+    }
   }
 }

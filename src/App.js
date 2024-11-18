@@ -50,7 +50,9 @@ const Game = ({ game }) => {
           {game.homeScore} - {game.awayScore}
         </p>
       ) : (
-        <p className="text-slate-400 font-bold mb-2">Starts at {game.startTime}</p>
+        <p className="text-slate-400 font-bold mb-2">
+          Starts at {game.startTime}
+        </p>
       )}
     </div>
   );
